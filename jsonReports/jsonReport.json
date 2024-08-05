@@ -1,0 +1,344 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/WorkSpace/Automation/Playwright/101/playwrights_101_assignment-main/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "C:/WorkSpace/Automation/Playwright/101/playwrights_101_assignment-main",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/SimpleFormDemo.test.ts",
+          "tests/ProgressBars&Sliders.test.ts",
+          "tests/InputForms.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/WorkSpace/Automation/Playwright/101/playwrights_101_assignment-main/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "MicrosoftEdge:latest:Windows 10@lambdatest",
+        "testDir": "C:/WorkSpace/Automation/Playwright/101/playwrights_101_assignment-main",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/SimpleFormDemo.test.ts",
+          "tests/ProgressBars&Sliders.test.ts",
+          "tests/InputForms.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/WorkSpace/Automation/Playwright/101/playwrights_101_assignment-main",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.22.2",
+    "workers": 4,
+    "webServer": null,
+    "_globalOutputDir": "C:\\WorkSpace\\Automation\\Playwright\\101\\playwrights_101_assignment-main",
+    "_configDir": "C:\\WorkSpace\\Automation\\Playwright\\101\\playwrights_101_assignment-main",
+    "_testGroupsCount": 6
+  },
+  "suites": [
+    {
+      "title": "tests\\InputForms.test.ts",
+      "file": "tests/InputForms.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "tests/InputForms.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 28796,
+                      "stdout": [
+                        {
+                          "text": "URL validation passed\n"
+                        },
+                        {
+                          "text": "Message validation passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/InputForms.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Page object test demo",
+          "file": "tests/InputForms.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 14651,
+                      "stdout": [
+                        {
+                          "text": "URL validation passed\n"
+                        },
+                        {
+                          "text": "Message validation passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/InputForms.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\ProgressBars&Sliders.test.ts",
+      "file": "tests/ProgressBars&Sliders.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "tests/ProgressBars&Sliders.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 13433,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/ProgressBars&Sliders.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Page object test demo",
+          "file": "tests/ProgressBars&Sliders.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 25154,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/ProgressBars&Sliders.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\SimpleFormDemo.test.ts",
+      "file": "tests/SimpleFormDemo.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "tests/SimpleFormDemo.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 48690,
+                      "stdout": [
+                        {
+                          "text": "Message validation passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/SimpleFormDemo.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Page object test demo",
+          "file": "tests/SimpleFormDemo.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test_Scenario_3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "MicrosoftEdge:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 26523,
+                      "stdout": [
+                        {
+                          "text": "Message validation passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "tests/SimpleFormDemo.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
